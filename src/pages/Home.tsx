@@ -1,10 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { MessageCircle, CheckCircle } from 'lucide-react';
+import { PHONE_NUMBER } from '../utils/constant';
 
 export function Home() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '1234567890';
+    const phoneNumber = PHONE_NUMBER;
     const message = encodeURIComponent('Hi! I would like to know more about your heat transfer foil products.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -59,12 +60,12 @@ export function Home() {
       </Helmet>
 
       <div 
-        className="h-screen bg-cover bg-center relative"
+        className="h-screen mt-100 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("companyBackgroundHome.jpeg")',
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50">
+        <div className="absolute inset-0 bg-black bg-opacity-70">
           <div className="container mx-auto px-4 h-full flex items-center">
             <div className="text-white max-w-2xl">
               <h1 className="text-5xl font-bold mb-6">Premium Heat Transfer Foils</h1>
@@ -111,7 +112,7 @@ export function Home() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80" 
+                src="factory_background.jpeg" 
                 alt="Heat Transfer Foil Manufacturing Process"
                 className="rounded-lg shadow-xl"
               />
@@ -128,9 +129,9 @@ export function Home() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80"
+                  src="service1.png"
                   alt="Heat Transfer Foil Application in Fashion"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">LuxeFashion</h3>
@@ -145,9 +146,9 @@ export function Home() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1515191107209-c28698631303?auto=format&fit=crop&q=80"
+                  src="all1.png"
                   alt="Heat Transfer Film Application in Sports"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">SportsPro</h3>
@@ -162,9 +163,9 @@ export function Home() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&q=80"
+                  src="all2.png"
                   alt="In-Mold Labeling Solutions"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">CreativeStudio</h3>

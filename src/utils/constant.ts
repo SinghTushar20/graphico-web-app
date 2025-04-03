@@ -1,0 +1,9 @@
+export const COMPANY_NAME = "Graphico";
+export const COMPANY_ADDRESS = "Plot No. 1, Near Shreeji Industries, Opposite Shreeji Industries, GIDC, Naroda, Ahmedabad - 382330";
+export const COMPANY_WEBSITE = "https://www.heattransferfoils.com";
+export const COMPANY_LOGO = "https://www.heattransferfoils.com/wp-content/uploads/2023/10/graphico-logo.png";
+export const COMPANY_TAGLINE = "Premium heat transfer foils solutions for your business needs.";
+export const PHONE_NUMBER = "+918789936221";
+export const COMPANY_EMAIL_ADDRESS = "tusharsingh20112001@gmail.com"
+export const COMPANY_MOTO = "You think, We create";
+export const WHATSAPP_MESSAGE = "Hi! I would like to know more about your heat transfer foil products.";

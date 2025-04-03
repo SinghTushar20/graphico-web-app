@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MessageCircle, Phone, Mail, MapPin, Facebook, Instagram, Clock, Send } from 'lucide-react';
+import { COMPANY_ADDRESS, COMPANY_EMAIL_ADDRESS, PHONE_NUMBER, WHATSAPP_MESSAGE } from '../utils/constant';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -10,15 +11,15 @@ export function Contact() {
   });
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '1234567890';
-    const message = encodeURIComponent('Hi! I would like to know more about your heat transfer foil products.');
+    const phoneNumber = PHONE_NUMBER;
+    const message = encodeURIComponent(WHATSAPP_MESSAGE);
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Replace with your email
-    const emailTo = 'your-email@example.com';
+    const emailTo = COMPANY_EMAIL_ADDRESS;
     const subject = encodeURIComponent('New Contact Form Submission');
     const body = encodeURIComponent(`
       Name: ${formData.name}
@@ -40,28 +41,28 @@ export function Contact() {
                 <Phone className="text-blue-600" size={24} />
                 <div>
                   <h3 className="font-semibold">Phone</h3>
-                  <p className="text-gray-600">+1 (123) 456-7890</p>
+                  <p className="text-gray-600">{PHONE_NUMBER}</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="text-blue-600" size={24} />
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-gray-600">info@heatfoils.com</p>
+                  <p className="text-gray-600">{COMPANY_EMAIL_ADDRESS}</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600" size={24} />
                 <div>
                   <h3 className="font-semibold">Address</h3>
-                  <p className="text-gray-600">123 Business Street, City, State 12345</p>
+                  <p className="text-gray-600">{COMPANY_ADDRESS}</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Clock className="text-blue-600" size={24} />
                 <div>
                   <h3 className="font-semibold">Business Hours</h3>
-                  <p className="text-gray-600">Mon-Fri: 9:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Mon-Sat: 9:00 AM - 8:00 PM</p>
                 </div>
               </div>
               <div className="flex space-x-4 pt-4">

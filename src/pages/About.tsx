@@ -9,7 +9,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80" 
+                src="factory.png" 
                 alt="About Us"
                 className="rounded-lg shadow-lg"
               />

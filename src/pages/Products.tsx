@@ -13,11 +13,11 @@ export function Products() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80" 
-                  alt="Metallic Foils"
-                  className="w-full h-48 object-cover rounded mb-4"
+                  src="heat-transfer-film.jpg" 
+                  alt="Heat Transfer Foils"
+                  className="w-full h-80 object-contain rounded mb-4"
                 />
-                <h4 className="text-xl font-semibold mb-2">Metallic Foils</h4>
+                <h4 className="text-xl font-semibold mb-2">Cool Foils</h4>
                 <p className="text-gray-600">
                   Premium metallic foils available in gold, silver, and custom colors.
                   Perfect for luxury packaging and high-end applications.
@@ -25,9 +25,9 @@ export function Products() {
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&q=80" 
-                  alt="Holographic Foils"
-                  className="w-full h-48 object-cover rounded mb-4"
+                  src="service1.png" 
+                  alt="Bharat Benz Foils"
+                  className="w-full h-80 object-contain rounded mb-4"
                 />
                 <h4 className="text-xl font-semibold mb-2">Holographic Foils</h4>
                 <p className="text-gray-600">
@@ -39,13 +39,13 @@ export function Products() {
 
           {/* Heat Transfer Molds Section */}
           <div className="mb-20">
-            <h3 className="text-2xl font-semibold mb-8">Heat Transfer Molds</h3>
+            <h3 className="text-2xl font-semibold mb-8">Heat Transfer Films</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80" 
+                  src="all1.png" 
                   alt="Custom Molds"
-                  className="w-full h-48 object-cover rounded mb-4"
+                  className="w-full h-100 object-contain rounded mb-4"
                 />
                 <h4 className="text-xl font-semibold mb-2">Custom Molds</h4>
                 <p className="text-gray-600">
@@ -55,9 +55,40 @@ export function Products() {
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1515191107209-c28698631303?auto=format&fit=crop&q=80" 
+                  src="all2.png" 
                   alt="Industrial Molds"
-                  className="w-full h-48 object-cover rounded mb-4"
+                  className="w-full h-100 object-contain rounded mb-4"
+                />
+                <h4 className="text-xl font-semibold mb-2">Industrial Molds</h4>
+                <p className="text-gray-600">
+                  Heavy-duty molds for industrial applications.
+                  Built for durability and precision.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Heat Transfer Molds Section */}
+          <div className="mb-20">
+            <h3 className="text-2xl font-semibold mb-8">IN MOLD LABELING</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <img 
+                  src="plasticTray.png" 
+                  alt="Custom Molds"
+                  className="w-full h-80 object-contain rounded mb-4"
+                />
+                <h4 className="text-xl font-semibold mb-2">Custom Molds</h4>
+                <p className="text-gray-600">
+                  Tailored heat transfer molds designed to your specifications.
+                  Ideal for consistent, high-volume production.
+                </p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <img 
+                  src="plasticJug.png" 
+                  alt="Industrial Molds"
+                  className="w-full h-80 object-contain rounded mb-4"
                 />
                 <h4 className="text-xl font-semibold mb-2">Industrial Molds</h4>
                 <p className="text-gray-600">
@@ -70,28 +101,28 @@ export function Products() {
 
           {/* Success Stories Section */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Success Stories</h3>
+            <h3 className="text-2xl font-semibold mb-8">Our Products</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="text-xl font-semibold mb-4">Fashion Brand - StyleCo</h4>
+                <h4 className="text-xl font-semibold mb-4">BharatBenz .co</h4>
                 <p className="text-gray-600 mb-4">
                   "The metallic foils provided by HeatFoils have become an integral part of our premium clothing line. The quality and consistency are unmatched."
                 </p>
                 <img 
-                  src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80" 
+                  src="bharatbenz_1.jpeg" 
                   alt="Fashion Brand"
-                  className="w-full h-48 object-cover rounded"
+                  className="w-full h-80 object-contain rounded"
                 />
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="text-xl font-semibold mb-4">Sports Apparel - AthleteX</h4>
+                <h4 className="text-xl font-semibold mb-4">Foils and Roles For Cosmetic & Food Industry</h4>
                 <p className="text-gray-600 mb-4">
                   "We've been using HeatFoils for our custom jersey numbers and logos. The durability through washing and wear is exceptional."
                 </p>
                 <img 
-                  src="https://images.unsplash.com/photo-1515191107209-c28698631303?auto=format&fit=crop&q=80" 
+                  src="service.png" 
                   alt="Sports Apparel"
-                  className="w-full h-48 object-cover rounded"
+                  className="w-full h-80 object-contain rounded"
                 />
               </div>
             </div>
