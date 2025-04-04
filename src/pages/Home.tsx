@@ -20,7 +20,7 @@ export function Home() {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="HeatFoils - Premium Heat Transfer Solutions" />
+        <meta property="og:title" content="Heat Transfer Foils - Premium Heat Transfer Solutions" />
         <meta property="og:description" content="Leading manufacturer of high-quality heat transfer foils, heat transfer films, and in-mold labeling solutions." />
         <meta property="og:image" content="https://www.heatfoils.com/og-image.jpg" />
         
@@ -87,9 +87,9 @@ export function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">About HeatFoils</h2>
+              <h2 className="text-3xl font-bold mb-6">About Graphico</h2>
               <p className="text-gray-600 mb-6">
-                With over a decade of expertise in heat transfer technology, HeatFoils has established itself as an industry leader in providing premium quality heat transfer solutions. Our commitment to innovation and excellence has made us the preferred choice for businesses worldwide.
+                With over a decade of expertise in Heat transfer foils and In mold labeling technology, Graphico has established itself as an industry leader in providing premium quality heat transfer foils solutions. <br/> Our commitment to innovation and excellence has made us the preferred choice for businesses worldwide.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">

@@ -19,7 +19,7 @@ export function Navbar() {
             <div className="flex items-center">
               <Mail size={16} className="mr-2" />
               <a
-                href="mailto:info@heatfoils.com"
+                href="mailto:sales.graphico.in@gmail.com"
                 className="hover:text-blue-400"
               >
                 {COMPANY_EMAIL_ADDRESS}
@@ -27,7 +27,7 @@ export function Navbar() {
             </div>
             <div className="flex items-center">
               <Phone size={16} className="mr-2" />
-              <a href="tel:+91 8789936221" className="hover:text-blue-400">
+              <a href="tel:+91 6200861130" className="hover:text-blue-400">
                 {PHONE_NUMBER}
               </a>
             </div>

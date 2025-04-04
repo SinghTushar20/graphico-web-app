@@ -1,6 +1,11 @@
 import React from "react";
 import { Facebook, Instagram } from "lucide-react";
-import { COMPANY_MOTO, COMPANY_TAGLINE } from "../utils/constant";
+import {
+  COMPANY_EMAIL_ADDRESS,
+  COMPANY_MOTO,
+  COMPANY_TAGLINE,
+  PHONE_NUMBER,
+} from "../utils/constant";
 
 export function Footer() {
   return (
@@ -43,6 +48,22 @@ export function Footer() {
               <a href="#" className="text-gray-400 hover:text-white">
                 <Instagram size={24} />
               </a>
+              <br />
+              <div className="flex space-x-4">
+                <a
+                  href="tel:+91 6200861130"
+                  className="text-gray-400 hover:text-white"
+                >
+                  {PHONE_NUMBER}
+                </a>
+                <br />
+                <a
+                  href="mailto:sales.graphico.in@gmail.com"
+                  className="text-gray-400 hover:text-white"
+                >
+                  {COMPANY_EMAIL_ADDRESS}
+                </a>
+              </div>
             </div>
           </div>
         </div>
