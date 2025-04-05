@@ -20,6 +20,9 @@ import {
   COMPANY_BRANCH_OFFICE_ADDRESS_LINE2,
   COMPANY_BRANCH_OFFICE_ADDRESS_LINE3,
   COMPANY_BRANCH_OFFICE_ADDRESS_LINE4,
+  PHONE_NUMBER_AMIT,
+  PHONE_NUMBER_RANJEET,
+  PHONE_NUMBER_PRADEEP,
 } from "../utils/constant";
 
 export function Contact() {
@@ -65,7 +68,25 @@ export function Contact() {
                     href="tel:+91 6200861130"
                     className="text-gray-400 hover:text-white"
                   >
-                    <p className="text-gray-600">{PHONE_NUMBER}</p>{" "}
+                    <p className="text-gray-600">Deekay: {PHONE_NUMBER}</p>{" "}
+                  </a>
+                  <a
+                    href="tel:+91 8840942891"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <p className="text-gray-600">Amit Singh: {PHONE_NUMBER_AMIT}</p>{" "}
+                  </a>
+                  <a
+                    href="tel:+91 9723194999"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <p className="text-gray-600">Ranjeet Singh: {PHONE_NUMBER_RANJEET}</p>{" "}
+                  </a>
+                  <a
+                    href="tel:+91 9833993682"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    <p className="text-gray-600">Pradeep Shetty: {PHONE_NUMBER_PRADEEP}</p>{" "}
                   </a>
                 </div>
               </div>
@@ -84,7 +105,7 @@ export function Contact() {
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600" size={24} />
                 <div>
-                  <h3 className="font-semibold">Branch office(Silvassa)</h3>
+                  <h3 className="font-semibold">Main office(Silvassa)</h3>
                   <p className="text-gray-600">
                     {COMPANY_FACTORY_ADDRESS_LINE1} <br />
                     {COMPANY_FACTORY_ADDRESS_LINE2} <br />

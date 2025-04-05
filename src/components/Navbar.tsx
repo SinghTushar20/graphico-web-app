@@ -42,11 +42,12 @@ export function Navbar() {
           <div className="flex justify-between items-center h-16">
             <div className="flex flex-col">
               <Link to="/" className="text-xl font-bold text-blue-600">
-                {COMPANY_NAME}
+                {/* {COMPANY_NAME} */}
+                <img src="graphico_logo.jpeg" alt="Graphico Logo" className="h-12" />
               </Link>
-              <span className="text-sm text-gray-600 italic">
+              {/* <span className="text-sm text-gray-600 italic">
                 {COMPANY_MOTO}
-              </span>
+              </span> */}
             </div>
 
             {/* Desktop Navigation */}
