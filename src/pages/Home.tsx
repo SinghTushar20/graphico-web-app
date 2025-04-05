@@ -86,7 +86,7 @@ export function Home() {
           })}
         </script>
       </Helmet>
-      <div className="mx-auto text-black text-xl font-bold max-w-md hidden md:block">
+      <div className="ml-28 text-black text-xl font-bold max-w-md hidden md:block">
         <Typewriter
           words={[COMPANY_MOTO]}
           loop={false}
@@ -105,14 +105,14 @@ export function Home() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-70">
           <div className="container mx-auto px-4 h-full flex items-center">
-            <div className="text-white max-w-2xl">
+            <div className="text-gray-200 max-w-2xl">
               <h1 className="text-5xl font-bold mb-6">
-                Premium Heat Transfer Foils
+                Graphico Heat Transfer Foils
               </h1>
-              <p className="text-xl mb-8">
+              <p className="text-xl font-semibold mb-8">
+                Mfg. of Heat Transfer Labels/Foils for PP, ABS, PS, PC, SAN, WOOD, PE & PET.<br/>
                 Transform your designs with our high-quality heat transfer
-                foils. Perfect for textiles, crafts, and commercial
-                applications.
+                foils.
               </p>
               <button
                 onClick={handleWhatsAppClick}
