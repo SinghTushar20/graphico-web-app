@@ -2,8 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, CheckCircle } from "lucide-react";
 import { COMPANY_MOTO, PHONE_NUMBER } from "../utils/constant";
-import { Typewriter } from 'react-simple-typewriter';
-
+import { Typewriter } from "react-simple-typewriter";
 
 export function Home() {
   const handleWhatsAppClick = () => {
@@ -100,23 +99,22 @@ export function Home() {
       <div
         className="h-screen mt-100 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("companyBackgroundHome.jpeg")',
+          backgroundImage: 'url("graphicoBackground1.png")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-70">
           <div className="container mx-auto px-4 h-full flex items-center">
-            <div className="text-gray-200 max-w-2xl">
-              <h1 className="text-5xl font-bold mb-6">
-                Graphico Heat Transfer Foils
-              </h1>
-              <p className="text-xl font-semibold mb-8">
-                Mfg. of Heat Transfer Labels/Foils for PP, ABS, PS, PC, SAN, WOOD, PE & PET.<br/>
-                Transform your designs with our high-quality heat transfer
-                foils.
-              </p>
+            <div className="text-gray-200 max-w-2xl mt-200">
+              {/* <h1 className="text-5xl font-bold mb-6">Graphico</h1> */}
+              {/* <p className="text-xl font-semibold mb-8">
+                Mfg. of Heat Transfer Foils/In-mould Label for PP, ABS, PS, PC,
+                SAN, WOOD, PE & PET.
+                <br />
+                "Service and Quality differentiate us from our competitors!"
+              </p> */}
               <button
                 onClick={handleWhatsAppClick}
-                className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full flex items-center space-x-2 transition duration-300"
+                className="fixed bottom-6 left-6 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full flex items-center space-x-2 transition duration-300"
               >
                 <MessageCircle size={20} />
                 <span>Contact us on WhatsApp</span>
@@ -133,11 +131,16 @@ export function Home() {
             <div>
               <h2 className="text-3xl font-bold mb-6">About Graphico</h2>
               <p className="text-gray-600 mb-6">
-                With over a decade of expertise in Heat transfer foils and In
-                mold labeling technology, Graphico has established itself as an
-                industry leader in providing premium quality heat transfer foils
-                solutions. <br /> Our commitment to innovation and excellence
-                has made us the preferred choice for businesses worldwide.
+                Welcome to Graphico, a leading name in Heat Transfer Printing
+                and In-Mould Labelling. With a legacy rooted in innovation and
+                quality, we specialize in developing and manufacturing
+                proprietary coatings that enable cost-effective,
+                customer-focused decoration solutions for a wide range of
+                industries. Our core technology allows us to deliver customized
+                Heat Transfer Foils and In-Mould Labels that enhance the
+                aesthetic appeal and durability of products by seamlessly
+                transferring our coatings or laminating them onto a variety of
+                substrates.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
@@ -160,7 +163,7 @@ export function Home() {
             </div>
             <div>
               <img
-                src="factory_background.jpeg"
+                src="photo-collection.png"
                 alt="Heat Transfer Foil Manufacturing Process"
                 className="rounded-lg shadow-xl"
               />
@@ -179,20 +182,17 @@ export function Home() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <img
-                  src="service1.png"
-                  alt="Heat Transfer Foil Application in Fashion"
+                  src="clearBlueDef.png"
+                  alt="Indian Oil AdBlue"
                   className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">LuxeFashion</h3>
+              <h3 className="text-xl font-semibold mb-2">Indian Oil AdBlue</h3>
               <p className="text-gray-600 mb-4">
-                "HeatFoils has revolutionized our clothing line with their
-                premium metallic transfers. The quality and consistency are
-                unmatched in the industry."
+                We provide heat transfer foils to the lubricant and chemical
+                industries, which use them as raw material for branding and
+                labeling of their packaging containers.
               </p>
-              <div className="text-sm text-gray-500">
-                Sarah Johnson, Creative Director
-              </div>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -203,33 +203,28 @@ export function Home() {
                   className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">SportsPro</h3>
+              <h3 className="text-xl font-semibold mb-2">Jolly Containers </h3>
               <p className="text-gray-600 mb-4">
-                "The durability of HeatFoils' products on our sports jerseys is
-                exceptional. They maintain their quality even after multiple
-                washes."
+                Our heat transfer foils are used as raw material in the
+                houseware and packaging industries to decorate plastic
+                containers, adding visual appeal and durability.
               </p>
-              <div className="text-sm text-gray-500">
-                Mike Thompson, Production Manager
-              </div>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="mb-4">
                 <img
-                  src="all2.png"
+                  src="shreeji.png"
                   alt="In-Mold Labeling Solutions"
                   className="w-full h-60 object-contain rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">CreativeStudio</h3>
+              <h3 className="text-xl font-semibold mb-2">Shree Pharma Pack</h3>
               <p className="text-gray-600 mb-4">
-                "Their holographic foils have added a new dimension to our
-                design capabilities. The customer support is outstanding."
+                We supply heat transfer foils to the Shree Pharma formerly known
+                as Shree Plastics , where they are used as raw materials in
+                labeling and branding applications on plastic packaging.
               </p>
-              <div className="text-sm text-gray-500">
-                Lisa Chen, Design Lead
-              </div>
             </div>
           </div>
         </div>

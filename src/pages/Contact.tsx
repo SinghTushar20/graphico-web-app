@@ -74,19 +74,25 @@ export function Contact() {
                     href="tel:+91 8840942891"
                     className="text-gray-400 hover:text-white"
                   >
-                    <p className="text-gray-600">Amit Singh: {PHONE_NUMBER_AMIT}</p>{" "}
+                    <p className="text-gray-600">
+                      Amit Singh: {PHONE_NUMBER_AMIT}
+                    </p>{" "}
                   </a>
                   <a
                     href="tel:+91 9723194999"
                     className="text-gray-400 hover:text-white"
                   >
-                    <p className="text-gray-600">Ranjeet Singh: {PHONE_NUMBER_RANJEET}</p>{" "}
+                    <p className="text-gray-600">
+                      Ranjeet Singh: {PHONE_NUMBER_RANJEET}
+                    </p>{" "}
                   </a>
                   <a
                     href="tel:+91 9833993682"
                     className="text-gray-400 hover:text-white"
                   >
-                    <p className="text-gray-600">Pradeep Shetty: {PHONE_NUMBER_PRADEEP}</p>{" "}
+                    <p className="text-gray-600">
+                      Pradeep Shetty: {PHONE_NUMBER_PRADEEP}
+                    </p>{" "}
                   </a>
                 </div>
               </div>
@@ -233,6 +239,19 @@ export function Contact() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-20">
+        <iframe
+          title="Google Map Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.5351235423914!2d72.99941762556844!3d20.278105781189954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0cb642df51c17%3A0x7b91df3827534dd2!2sAmli%20Industrial%20Estate%2C%20Silvassa%2C%20Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu%20396230!5e0!3m2!1sen!2sin!4v1745169180091!5m2!1sen!2sin"
+          width="100%"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen={true}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="rounded-lg shadow-md"
+        ></iframe>
       </div>
     </div>
   );
