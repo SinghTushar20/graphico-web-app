@@ -79,45 +79,7 @@ export function Services() {
                     reduces the need for post-decoration steps.
                   </p>
                 </div>
-
-                {/* APPLICATION AREAS */}
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden p-6">
-                  <h3 className="text-2xl font-semibold mb-4">
-                    APPLICATION AREAS
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Our solutions are used across multiple industries and
-                    product categories:
-                  </p>
-                  <ul className="list-disc list-inside text-gray-600 mt-4 space-y-1">
-                    <li>
-                      Stationery (Pens, Tiffin Boxes, Pencil Boxes, Markers)
-                    </li>
-                    <li>Houseware (Buckets, Containers, Mugs, Accessories)</li>
-                    <li>Thermoware (Casseroles, Flasks, Tiffins)</li>
-                    <li>FMCG (Ice Cream, Dairy, Ghee Packaging)</li>
-                    <li>Paints, Lubricants, Batteries</li>
-                    <li>Pharma (Measuring Cups, Bottles)</li>
-                    <li>Baby Products (Feeding Bottles, Cups)</li>
-                    <li>Fancy Items (Hair Clips, Combs, Mirrors)</li>
-                    <li>HDPE Drums & Bottles, Photo Frames, Number Plates</li>
-                  </ul>
-                </div>
-
-                {/* FUTURE PROSPECTS */}
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden p-6">
-                  <h3 className="text-2xl font-semibold mb-4">
-                    FUTURE PROSPECTS
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    With rising demand and regulatory shifts like mandatory DEF
-                    usage in all vehicles, the market for Heat Transfer Foils
-                    and In-Mould Labels is expanding rapidly. As more industries
-                    transition from screen and pad printing to these modern
-                    methods, we are scaling up our capacity to meet the demand
-                    in automotive, HDPE, and pharmaceutical sectors.
-                  </p>
-                </div>
+                
               </div>
             </div>
 

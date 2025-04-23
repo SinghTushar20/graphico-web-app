@@ -17,15 +17,16 @@ export function Home() {
     <>
       <Helmet>
         <title>
-          HeatFoils - Premium Heat Transfer Foils & In-Mold Labeling Solutions
+          Graphico | Heat Transfer Foils, In-Mould Labelling & Printing
+          Solutions
         </title>
         <meta
           name="description"
-          content="Leading manufacturer of high-quality heat transfer foils, heat transfer films, and in-mold labeling solutions. Custom solutions for textile, packaging, and industrial applications."
+          content="Graphico is a leading manufacturer of Heat Transfer Foils and In-Mould Labelling solutions. We offer premium heat transfer printing foils and raw materials for a wide range of industries."
         />
         <meta
           name="keywords"
-          content="heat transfer foil, heat transfer film, in-mold labeling, IML, heat transfer technology, metallic foils, holographic foils, textile printing"
+          content="Heat transfer foils, Heat Transfer Printing, In-Mould Labelling, Graphico, Graphico labels, foils, raw material, heat transfer film, packaging foils, labeling solutions"
         />
         <link rel="canonical" href="https://www.heatfoils.com" />
 
@@ -33,26 +34,31 @@ export function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Heat Transfer Foils - Premium Heat Transfer Solutions"
+          content="Graphico | Heat Transfer Foils & In-Mould Labelling Experts"
         />
         <meta
           property="og:description"
-          content="Leading manufacturer of high-quality heat transfer foils, heat transfer films, and in-mold labeling solutions."
+          content="Explore high-quality Heat Transfer Foils, In-Mould Labelling, and raw materials by Graphico – Trusted by global brands for heat transfer printing excellence."
         />
         <meta
           property="og:image"
           content="https://www.heatfoils.com/og-image.jpg"
         />
+        <meta property="og:url" content="https://www.heatfoils.com" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="HeatFoils - Premium Heat Transfer Solutions"
+          content="Graphico | Heat Transfer Foils & In-Mould Labelling Experts"
         />
         <meta
           name="twitter:description"
-          content="Leading manufacturer of high-quality heat transfer foils, heat transfer films, and in-mold labeling solutions."
+          content="Graphico offers premium heat transfer foils and in-mould labeling solutions. Discover our heat transfer printing raw materials tailored for packaging, houseware, and more."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.heatfoils.com/og-image.jpg"
         />
 
         {/* Schema.org structured data */}
@@ -60,9 +66,9 @@ export function Home() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "HeatFoils",
+            name: "Graphico",
             description:
-              "Premium manufacturer of heat transfer foils and in-mold labeling solutions",
+              "Graphico is a manufacturer and supplier of Heat Transfer Foils and In-Mould Labels for industrial applications.",
             url: "https://www.heatfoils.com",
             contactPoint: {
               "@type": "ContactPoint",
@@ -79,12 +85,13 @@ export function Home() {
               addressCountry: "US",
             },
             sameAs: [
-              "https://facebook.com/heatfoils",
-              "https://instagram.com/heatfoils",
+              "https://facebook.com/graphicolabels",
+              "https://instagram.com/graphicolabels",
             ],
           })}
         </script>
       </Helmet>
+
       <div className="ml-28 text-black text-xl font-bold max-w-md hidden md:block">
         <Typewriter
           words={[COMPANY_MOTO]}
@@ -101,7 +108,7 @@ export function Home() {
         style={{
           backgroundImage: 'url("graphicoBackground1.png")',
         }}
-      >
+      >``
         <div className="absolute inset-0 bg-black bg-opacity-70">
           <div className="container mx-auto px-4 h-full flex items-center">
             <div className="text-gray-200 max-w-2xl mt-200">
