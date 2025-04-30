@@ -135,6 +135,17 @@ export const products = [
       "Heavy-duty molds for industrial applications. Built for durability and precision.",
   },
   {
+    title: "Foils for Cosmetics & Food",
+    image_src: "service.png",
+    description_short: "Attractive, protective foils for packaging",
+    description_long:
+      "Our premium foils and rolls for the cosmetic and food industry ensure high-quality packaging with vibrant, eye-catching designs. Perfect for protecting products and enhancing brand appeal, these foils offer excellent barrier properties and durability.",
+  },
+];
+
+export const successStories = [
+  ,
+  {
     title: "BharatBenz DEF Foils",
     image_src: "bharatbenz_1.jpeg",
     description_short: "Branded foils for DEF containers",
@@ -163,17 +174,29 @@ export const products = [
       "Premium heat transfer foils for HP DEF containers, offering exceptional chemical resistance and long-lasting durability. Provides vibrant and durable branding on HDPE surfaces, perfect for Diesel Exhaust Fluid (DEF) applications.",
   },
   {
-    title: "Foils for Cosmetics & Food",
-    image_src: "service.png",
-    description_short: "Attractive, protective foils for packaging",
-    description_long:
-      "Our premium foils and rolls for the cosmetic and food industry ensure high-quality packaging with vibrant, eye-catching designs. Perfect for protecting products and enhancing brand appeal, these foils offer excellent barrier properties and durability.",
-  },
-  {
     title: "Foils for IFFCO DEF",
     image_src: "iffcoDef.png",
     description_short: "DEF branding for IFFCO containers",
     description_long:
       "Premium heat transfer foils for IFFCO DEF buckets, designed for superior chemical resistance and long-lasting performance. Delivers sharp, durable branding on HDPE surfaces, making it perfect for AdBlue and Diesel Exhaust Fluid applications.",
   },
+]
+
+export const groupedProducts = [
+  {
+    sectionTitle: "Heat Transfer Foils",
+    items: products.slice(0, 6),
+  },
+  {
+    sectionTitle: "Heat Transfer Films",
+    items: products.slice(6, 8),
+  },
+  {
+    sectionTitle: "IN MOLD LABELING",
+    items: products.slice(8, 10),
+  },
+  // {
+  //   sectionTitle: "Success Stories",
+  //   items: products.slice(10, 16),
+  // },
 ];

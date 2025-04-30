@@ -58,7 +58,7 @@ export function Footer() {
                 </a>
                 <br />
                 <a
-                  href="mailto:sales.graphico.in@gmail.com"
+                  href="mailto:sales@graphicolabels.com"
                   className="text-gray-400 hover:text-white"
                 >
                   {COMPANY_EMAIL_ADDRESS}

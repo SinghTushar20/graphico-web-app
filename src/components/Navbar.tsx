@@ -19,7 +19,7 @@ export function Navbar() {
             <div className="flex items-center">
               <Mail size={16} className="mr-2" />
               <a
-                href="mailto:sales.graphico.in@gmail.com"
+                href="mailto:sales@graphicolabels.com"
                 className="hover:text-blue-400"
               >
                 {COMPANY_EMAIL_ADDRESS}

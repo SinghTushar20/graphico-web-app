@@ -13,6 +13,6 @@ export const PHONE_NUMBER = "+916200861130";
 export const PHONE_NUMBER_RANJEET = "+919723194999";
 export const PHONE_NUMBER_AMIT = "+918840942891";
 export const PHONE_NUMBER_PRADEEP = "+919833993682";
-export const COMPANY_EMAIL_ADDRESS = "sales.graphico.in@gmail.com"
+export const COMPANY_EMAIL_ADDRESS = "sales@graphicolabels.com"
 export const COMPANY_MOTO = "You Imagine, We Create...";
 export const WHATSAPP_MESSAGE = "Hi! I would like to know more about your heat transfer foil products.";

@@ -101,7 +101,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold">Email</h3>
                   <a
-                    href="mailto:sales.graphico.in@gmail.com"
+                    href="mailto:sales@graphicolabels.com"
                     className="text-gray-400 hover:text-white"
                   >
                     <p className="text-gray-600">{COMPANY_EMAIL_ADDRESS}</p>
@@ -243,7 +243,7 @@ export function Contact() {
       <div className="mt-20">
         <iframe
           title="Google Map Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.5351235423914!2d72.99941762556844!3d20.278105781189954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0cb642df51c17%3A0x7b91df3827534dd2!2sAmli%20Industrial%20Estate%2C%20Silvassa%2C%20Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu%20396230!5e0!3m2!1sen!2sin!4v1745169180091!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871.143244540089!2d73.00079963869076!3d20.288405495295592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0cb9a2bb6685d%3A0x4784489eb832ae14!2sGraphico%20labels!5e0!3m2!1sen!2sin!4v1746036787047!5m2!1sen!2sin"
           width="100%"
           height="450"
           style={{ border: 0 }}
